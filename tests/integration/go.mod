@@ -30,9 +30,6 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
-	github.com/uptrace/bun v1.2.3
-	github.com/uptrace/bun/dialect/pgdialect v1.2.3
-	github.com/uptrace/bun/driver/pgdriver v1.1.14
 	github.com/xo/dburl v0.23.2
 	github.com/zitadel/oidc/v2 v2.12.2
 	golang.org/x/oauth2 v0.23.0
@@ -122,7 +119,7 @@ require (
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
+	github.com/golang-jwt/jwt/v5 v5.2.2 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
@@ -208,6 +205,8 @@ require (
 	github.com/tklauser/go-sysconf v0.3.14 // indirect
 	github.com/tklauser/numcpus v0.8.0 // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
+	github.com/uptrace/bun v1.2.3 // indirect
+	github.com/uptrace/bun/dialect/pgdialect v1.2.3 // indirect
 	github.com/uptrace/bun/extra/bundebug v1.2.3 // indirect
 	github.com/uptrace/bun/extra/bunotel v1.2.3 // indirect
 	github.com/uptrace/opentelemetry-go-extra/otellogrus v0.3.2 // indirect
@@ -267,7 +266,6 @@ require (
 	gopkg.in/go-jose/go-jose.v2 v2.6.3 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	mellium.im/sasl v0.3.1 // indirect
 )
 
 replace (
