@@ -1,4 +1,10 @@
-# Project agent instructions
+# Agent project instructions
+
+<!-- BEGIN mikashboks-project-context -->
+## MiKashBoks shared context
+
+For cross-project packages, APIs, schemas or deployment changes, read [MiKashBoks dependency context](docs/MIKASHBOKS_CONTEXT.md) first. Use the [shared guide](../../docs/PROJECT_DEPENDENCIES.md) when already accessible; otherwise use the repository snapshot. Verify current source/lockfiles and retain existing repository rules. Documentation does not grant sibling-source or credential access, or authorize a release.
+<!-- END mikashboks-project-context -->
 
 <!-- BEGIN salton-agent-collaboration -->
 # Shared agent collaboration and Git safety
