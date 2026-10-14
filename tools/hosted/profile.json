@@ -1,0 +1,35 @@
+{
+  "repository": "mikashboks/formance-stack",
+  "node_version": null,
+  "java_version": null,
+  "tool_environment": {
+    "GOTOOLCHAIN": "go1.22.7"
+  },
+  "node_units": [],
+  "required_tools": [
+    "go"
+  ],
+  "prepare_commands": [],
+  "install_commands": [
+    [
+      "go",
+      "mod",
+      "download"
+    ]
+  ],
+  "check_commands": [
+    {
+      "argv": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "directory": "."
+    }
+  ],
+  "install_blockers": [],
+  "notes": [
+    "The source declares Go 1.22.0 with toolchain go1.22.7. Provision that toolchain rather than editing go.mod."
+  ],
+  "hosted_runtime_validation": "pending"
+}
