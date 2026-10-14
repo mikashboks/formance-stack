@@ -1,4 +1,4 @@
-[Formance Stack](https://formance.com) • [![Ledger Stars](https://img.shields.io/github/stars/formancehq/ledger?label=Ledger%20stars)](https://github.com/formancehq/ledger/stargazers) [![License MIT](https://img.shields.io/badge/license-mit-purple)](https://github.com/formancehq/ledger/blob/main/LICENSE) [![YCombinator](https://img.shields.io/badge/Backed%20by-Y%20Combinator-%23f26625)](https://www.ycombinator.com/companies/formance-fka-numary) [![slack](https://img.shields.io/badge/slack-formance-brightgreen.svg?logo=slack)](https://bit.ly/formance-slack)
+[Formance Stack](https://formance.com) • [![Ledger Stars](https://img.shields.io/github/stars/formancehq/ledger?label=Ledger%20stars)](https://github.com/formancehq/ledger/stargazers) [![License MIT](https://img.shields.io/badge/license-mit-purple)](https://github.com/formancehq/ledger/blob/main/LICENSE) [![YCombinator](https://img.shields.io/badge/Backed%20by-Y%20Combinator-%23f26625)](https://www.ycombinator.com/companies/formance-fka-numary) [![GitHub Discussions](https://img.shields.io/github/discussions/formancehq/stack)](https://github.com/orgs/formancehq/discussions)
 
 Formance is a highly modular developer platform to build and operate complex money flows of any size and shapes. It comes with several components, that can be used as a whole as the Formance Stack or separately as standalone micro-services and libraries:
 
@@ -34,36 +34,6 @@ fctl ui
 ```
 
 [1] https://docs.formance.com/guides/newSandbox
-
-## 💻 Getting started locally
-
-### Requirements
-1. Make sure docker is installed on your machine.
-2. Ensure your docker daemon has at least 5GB uf usable RAM available. Otherwise you will run into random crashes.
-3. Make sure Docker Compose is installed and available (it should be the case if you have chosen to install Docker via Docker Desktop); and
-4. Make sure Git is also installed on your machine.
-
-
-### Run the app
-To start using Formance Stack, run the following commands in a shell:
-
-```
-# Get the code
-git clone https://github.com/formancehq/stack.git
-
-# Go to the cloned stack directory
-cd stack
-
-# Start the stack containers
-docker compose up
-```
-
-The Stack's API is exposed at http://localhost/api.
-
-You can run :
-````
-curl http://localhost/api/ledger/_info
-````
 
 ## ☁️ Cloud Native Deployment
 
