@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "result": "PASS_WITH_WARNINGS",
+  "speakeasyVersion": "1.759.2",
+  "platform": "darwin_arm64",
+  "binaryArchiveSha256": "dda057dbbd83bdaa47f9ccf3311e455013d957d11f45d8336b97b91ba2a56d6d",
+  "command": "speakeasy run -s all --skip-upload-spec --output console",
+  "exitCode": 0,
+  "registryUploadDisabled": true,
+  "registryPublicationPerformed": false,
+  "sdkTargetsGenerated": 0,
+  "schemasMerged": 11,
+  "overlaysApplied": 2,
+  "validation": {
+    "errors": 0,
+    "warnings": 64,
+    "hints": 30,
+    "repositoryCompositionInvariants": "PASS",
+    "pathEntries": 272,
+    "componentSchemas": 800
+  },
+  "warningSummary": {
+    "optionalRequestBodies": 61,
+    "oauthClientCredentialsBusinessTierRequirement": 1,
+    "unsupportedNotSchema": 1,
+    "nonObjectErrorResponseTreatedAsEmpty": 1
+  },
+  "limits": [
+    "No SDK target generation was requested; workflow targets are empty",
+    "OAuth client-credentials SDK feature requires Speakeasy Business tier; no subscription or authentication mechanism changed",
+    "The workflow lock retains its historical registry source digests because registry upload was disabled; they do not attest this local output"
+  ],
+  "privateLedger": {
+    "commit": "6bcd338b23293a7b7082d099922237b2466beede",
+    "schemaSha256": "52de0acfb4ae66e312bf8b637863fa0a9ef3f1cc93f01d5a2efe660ae7cefee9",
+    "historicalSelectorsRetained": [
+      "at",
+      "temporality"
+    ],
+    "configurationLogTypeRetained": "CONFIGURED_HISTORICAL_BALANCES"
+  },
+  "localOutputSha256": "49e764abf33db199e94ecf67bb704b4574b39a58017a68a5d98e75262a06e2fe",
+  "inputSha256": {
+    "components/auth.openapi.yaml": "47c6cfffae4b47d780306d0ccc2267e472566d1109f308862ccd4f9b9efcec43",
+    "components/gateway.openapi.yaml": "e742fc531d836287bd3b565b57a1ae28bf80ff752c8de6f53961be246355c618",
+    "components/ledger-v2.openapi.yaml": "c5d6e265403f12df6faed2125e91deebb841b2e76e4bdd27853f71a8f0ec600e",
+    "components/ledger.openapi.yaml": "a648fc744e7fd8f23101f547d0a665ef7ab112309ccb527ac5d191977b9cf7dd",
+    "components/orchestration.openapi.yaml": "2e9ac9c38f4c92bfbe7970e8cc75054989e684d387076f87a72d206dff2cda31",
+    "components/payments.openapi.yaml": "3bf5726cbf00f2f19dd775a7335f02911eef38ed857ff223bc8b78e6f80490e6",
+    "components/reconciliation.openapi.yaml": "af3a86120ee2c89b214746dc38ad988c9881878edcfc167a14134d48328baeda",
+    "components/search.openapi.yaml": "f4e80aad45449f26686658ffcf4b77f7d15ba7f7466f767853d4a5af895f2a2d",
+    "components/wallets.openapi.yaml": "baa71720403c7ab38be321a8c8ca29dea93740b82a5abc5b63a8f9aaf53807e4",
+    "components/webhooks.openapi.yaml": "1b21fb40640349a4c9048d140ba3d59aa135c143797327dd9980581cf8540902",
+    "privateLedgerSourceSha256": "52de0acfb4ae66e312bf8b637863fa0a9ef3f1cc93f01d5a2efe660ae7cefee9",
+    "workflowSha256": "ea33b2576439b02344a03b9073bfd17dc5e28289e664dbc2398e02b22de2c430"
+  },
+  "deploymentPerformed": false
+}
