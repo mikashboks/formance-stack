@@ -13,3 +13,7 @@ The initial 2026-10-14 upload-disabled run required authentication and did not c
 The warnings comprise 61 optional-request-body observations, one unsupported `not` schema, one non-object error response treated as empty, and one OAuth client-credentials SDK feature restricted to Speakeasy Business tier. This validates composition; no SDK targets are configured or generated. No tier, subscription, API authentication or permissions were changed. Registry upload remained disabled; the lock's previous registry source digests are historical metadata, not proof of this local output. Its CLI and embedded workflow versions now match the 1.759.2 pin.
 
 The owner authorized pushes only to the three existing `origin/upgrade/formance-rc1` branches and opening PRs, with no deployment or protected-branch merge. Existing original branches, commit history, private runtime source and old patch files remain preserved.
+
+## Upgrade branch publication — 2026-10-15
+
+Ledger: https://github.com/mikashboks/formance-ledger/pull/25; Stack: https://github.com/mikashboks/formance-stack/pull/19; Accounting: https://github.com/mikashboks/accounting-service/pull/21. All three `upgrade/formance-rc1` branches were pushed with normal Git history. Original branches and pre-existing work remain preserved; all PRs remain open. No release, protected-branch merge, shared-data migration or deployment was performed by this chat. Final status records are tracked in each repository's `AGENT_FEATURES.md`.
