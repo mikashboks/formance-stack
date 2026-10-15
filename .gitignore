@@ -27,10 +27,10 @@ worktrees
 .env
 
 
-# Earthly
-.tmp-earthly-out
+# Downloaded OpenAPI specs
+components/
 .DS_Store
-openapi/node_modules
+node_modules/
 
 
 .kubeconfig
@@ -41,3 +41,6 @@ openapi/node_modules
 
 # Helm
 *.tgz
+
+# AI coding assistants
+CLAUDE.md
